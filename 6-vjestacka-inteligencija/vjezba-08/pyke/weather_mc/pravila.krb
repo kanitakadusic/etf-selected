@@ -1,0 +1,35 @@
+vrijeme_kabanica
+    use ponijeti(Kabanicu)
+    when
+        pitanja.vrijeme_pada_kisa(True)
+        pitanja.vrijeme_puse_vjetar(True)
+
+vrijeme_kisobran
+    use ponijeti(Kisobran)
+    when
+        pitanja.vrijeme_pada_kisa(True)
+        pitanja.vrijeme_puse_vjetar(False)
+
+vrijeme_nista
+    use ponijeti(Nista)
+    when
+        pitanja.vrijeme_pada_kisa(False)
+        pitanja.vrijeme_puse_vjetar(False)
+
+situacija_cizme
+    use ponijeti(Cizme)
+    when
+        pitanja.situacija($ans)
+        check $ans in (1,)
+
+situacija_maska
+    use ponijeti(Masku)
+    when
+        pitanja.situacija($ans)
+        check $ans in (2,)
+
+situacija_nista
+    use ponijeti(Nista)
+    when
+        pitanja.situacija($ans)
+        check $ans in (3,)

@@ -1,0 +1,9 @@
+pada_kisa($ans)
+    Da li pada kisa?
+    ---
+    $ans = yn
+
+puse_vjetar($ans)
+    Da li je vjetrovito?
+    ---
+    $ans = yn

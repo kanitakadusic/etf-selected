@@ -1,0 +1,17 @@
+kabanica
+    use ponijeti(Kabanicu)
+    when
+        cinjenice.pada_kisa(True)
+        cinjenice.puse_vjetar(True)
+
+kisobran
+    use ponijeti(Kisobran)
+    when
+        cinjenice.pada_kisa(True)
+        cinjenice.puse_vjetar(False)
+
+nista
+    use ponijeti(Nista)
+    when
+        cinjenice.pada_kisa(False)
+        cinjenice.puse_vjetar(False)

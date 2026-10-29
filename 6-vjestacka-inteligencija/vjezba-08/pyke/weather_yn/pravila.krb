@@ -1,0 +1,17 @@
+kabanica
+    use ponijeti(Kabanicu)
+    when
+        pitanja.pada_kisa(True)
+        pitanja.puse_vjetar(True)
+
+kisobran
+    use ponijeti(Kisobran)
+    when
+        pitanja.pada_kisa(True)
+        pitanja.puse_vjetar(False)
+
+nista
+    use ponijeti(Nista)
+    when
+        pitanja.pada_kisa(False)
+        pitanja.puse_vjetar(False)

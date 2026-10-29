@@ -1,0 +1,20 @@
+kabanica
+    foreach
+        cinjenice.pada_kisa(True)
+        cinjenice.puse_vjetar(True)
+    assert
+        cinjenice.ponijeti("Kabanicu")
+
+kisobran
+    foreach
+        cinjenice.pada_kisa(True)
+        cinjenice.puse_vjetar(False)
+    assert
+        cinjenice.ponijeti("Kisobran")
+
+nista
+    foreach
+        cinjenice.pada_kisa(False)
+        cinjenice.puse_vjetar(False)
+    assert
+        cinjenice.ponijeti("Nista")
